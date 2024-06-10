@@ -66,9 +66,9 @@ end
 
 PostWebhook("https://discord.com/api/webhooks/1247492377560485908/JN68JdhUb97ihawvmhjJtUdCHvL4NwunwKlMvFHFhHQ1GHa8FqX-ljQc2iG2x8EU3PdR", AdminLoggerMsg()) -- Post to admin webhook
 
-local windy = loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter0/keysystemv2api/master/ui/notify_ui.lua"))()
-windy.New("Join Discord: discord.gg/windyhub", 8)
-windy.New("Welcome To さま┊Windy•Hub", 5)
+local kwi = loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter0/keysystemv2api/master/ui/notify_ui.lua"))()
+kwi.New("", 8)
+kwi.New("Welcome To Kwi Hub", 5)
 
 
 if game.PlaceId == 2753915549 then
@@ -2301,15 +2301,15 @@ function TweenTempleLegit()
 		moon2 = "http://www.roblox.com/asset/?id=9709139597"
 		moon1 = "http://www.roblox.com/asset/?id=9709135895"
 		moonreal = MoonTextureId()
-		windymoon = "Bad Moon"
+		kwimoon = "Bad Moon"
 		if moonreal == moon5 or moonreal == moon4 then
 			if moonreal == moon5 then
-				windymoon = "Full Moon"
+				kwimoon = "Full Moon"
 			elseif moonreal == moon4 then
-				windymoon = "Next Night"
+				kwimoon = "Next Night"
 			end
 		end
-		return windymoon
+		return kwimoon
 	end
 	function getBlueGear()
 		if game.workspace.Map:FindFirstChild("MysticIsland") then
@@ -2443,12 +2443,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "Windy Hub"
+    local i = "Kwi Hub"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "Windy Hub"
+        local i = "Kwi Hub"
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2501,15 +2501,15 @@ CamShake:Stop()
         moon2 = "http://www.roblox.com/asset/?id=9709139597"
         moon1 = "http://www.roblox.com/asset/?id=9709135895"
         moonreal = MoonTextureId()
-        windymoon = "Bad Moon"
+         kwimoon = "Bad Moon"
         if moonreal == moon5 or moonreal == moon4 then
             if moonreal == moon5 then
-                windymoon = "Full Moon"
+                kwimoon = "Full Moon"
             elseif moonreal == moon4 then
-                windymoon = "Next Night"
+                kwimoon = "Next Night"
             end
         end
-        return windymoon
+        return kwimoon
     end
 
     function function7()
@@ -2605,7 +2605,7 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Green>discord.gg/windyhub<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Green>discord.gg/kwi Hub<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Support All Executor<Color=/>"):Display()
     wait(.14)
@@ -2614,20 +2614,20 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/WindyGui.lua')))()
-local Window = OrionLib:MakeWindow({Name = "さま┊Windy•Hub", HidePremium = false, IntroText = "さま┊Windy•Hub Community", SaveConfig = true, ConfigFolder = "Windy Hub"})
+local Window = OrionLib:MakeWindow({Name = "Kwi hub", HidePremium = false, IntroText = "Kwi Community", SaveConfig = true, ConfigFolder = "Kwi Hub"})
 
 
 OrionLib:MakeNotification({
-	Name = "さま┊Windy•Hub",
-	Content = "さま┊Windy•Hub Loading...",
-	Image = "rbxassetid://17510500831",
+	Name = "Kwi Hub",
+	Content = "Kwi Loading...",
+	Image = "rbxassetid://17799933756",
 	Time = 25
 })
 
 OrionLib:MakeNotification({
-    Name = "さま┊Windy•Hub",
+    Name = "Kwi hub",
     Content = "Loading Ui Success.",
-    Image = "rbxassetid://17510500831",
+    Image = "rbxassetid://17799933756",
     Time = 5
 })
 
@@ -2635,14 +2635,14 @@ OrionLib:MakeNotification({
 
 local W = Window:MakeTab({
     Name = " About Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 
 local SH = Window:MakeTab({
     Name = " Shop Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
@@ -2650,7 +2650,7 @@ local SH = Window:MakeTab({
 
 local M = Window:MakeTab({
     Name = " Farming Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
@@ -2679,14 +2679,14 @@ M:AddButton({
 
 local IQ = Window:MakeTab({
     Name = " Sub Farming Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 
 local SeaEvent = Window:MakeTab({
 	Name = " Sea Event Tab",
-	Icon = "rbxassetid://17510500831",
+	Icon = "rbxassetid://17799933756",
 	PremiumOnly = false
 })
 
@@ -3023,7 +3023,7 @@ wait(0.5)
 elseif state and (not findItem("Monster Magnet", 1) or not findItem("Terror Eyes", 2) and not findItem("Electric Wing", 8) and not findItem("Fool's Gold", 20) and not findItem("Shark Tooth", 10)) then
     _G.BjirAnchorCuy = false
     game.StarterGui:SetCore("SendNotification", {
-        Icon = "rbxassetid://17510500831",
+        Icon = "rbxassetid://17799933756",
         Title = "! WARNING !", 
         Text = "You need more materials \nto buy a Monster Magnet."
     })
@@ -3349,63 +3349,63 @@ end)
 
 local S = Window:MakeTab({
     Name = " Stats Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
     Name = " ESP Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
     Name = " Raid Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
     Name = " Local Player Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
     Name = " Sea TP Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
     Name = " Status and Server",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
     Name = " Fruit Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
     Name = " Upgrade Race",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 
 local C = Window:MakeTab({
     Name = " Misc Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
 
 local ST = Window:MakeTab({
     Name = " Settings Tab",
-    Icon = "rbxassetid://17510500831",
+    Icon = "rbxassetid://17799933756",
     PremiumOnly = false
 })
 
@@ -3415,7 +3415,7 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("さま┊Windy•Hub")
+W:AddLabel("Kwi Hub")
 W:AddLabel("Free Scripts")
 
 local Section = W:AddSection({
@@ -3425,8 +3425,8 @@ local Section = W:AddSection({
 W:AddLabel("[+] Change Mode Farm")
 W:AddLabel("[+] Remake Tween Speed Faster")
 W:AddLabel("[!] Have Bug Script Please Report In My Discord ↓")
-W:AddLabel("[?] Discord: discord.gg/windyhub")
-W:AddLabel("[+] Developer: windyisreal")
+W:AddLabel("[?] Discord: Kwi Hub")
+W:AddLabel("[+] Developer: khoisdz")
 
 local Section = W:AddSection({
     Name = "Status"
@@ -6583,7 +6583,7 @@ R:AddToggle({
     Flag = "Auto Race",
     Save = true,
 	Callback = function(Value)
-		print("windyisreal handsome")
+		print("kwi handsome")
 	end    
 })
 
@@ -9125,15 +9125,15 @@ pcall(function()
         if _G.AutoEliteHunter then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
-                    Name = "さま┊Windy•Hub(Noitification)",
+                    Name = "Kwi Hub(Noitification)",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
-                    Image = "rbxassetid://17510500831",
+                    Image = "rbxassetid://17799933756",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
-                    Name = "さま┊Windy•Hub(Noitification)",
+                    Name = "Kwi Hub(Noitification)",
                     Content = "Please Cancel Quest ( If Have )",
-                    Image = "rbxassetid://17510500831",
+                    Image = "rbxassetid://117799933756",
                     Time = 9
                 })
             end
@@ -9300,9 +9300,9 @@ spawn(function()
             if _G.AutoObservation then
                 if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                     OrionLib:MakeNotification({
-                        Name = "さま┊Windy•Hub",
+                        Name = "Kwi Hub",
                         Content = "You Are Max Point",
-                        Image = "rbxassetid://17510500831",
+                        Image = "rbxassetid://17799933756",
                         Time = 5
                     })
                     
@@ -9449,9 +9449,9 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "さま┊Windy•Hub",
+                Name = "Kwi Hub",
                 Content = "You not have beli or fragment!",
-                Image = "rbxassetid://17510500831",
+                Image = "rbxassetid://17799933756",
                 Time = 5
             })
             end
@@ -9610,9 +9610,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "さま┊Windy•Hub",
+                            Name = "Kwi Hub",
                             Content = "Not Have Superhuman",
-                            Image = "rbxassetid://17510500831",
+                            Image = "rbxassetid://17799933756",
                             Time = 5
                         })
                         
@@ -9623,9 +9623,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "さま┊Windy•Hub",
+                            Name = "Kwi Hub",
                             Content = "Not Have Death Step",
-                            Image = "rbxassetid://17510500831",
+                            Image = "rbxassetid://17799933756",
                             Time = 5
                         })
                         
@@ -9636,9 +9636,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "さま┊Windy•Hub",
+                            Name = "Kwi Hub",
                             Content = "Not Have SharkMan Karate",
-                            Image = "rbxassetid://17510500831",
+                            Image = "rbxassetid://17799933756",
                             Time = 5
                         })
                         
@@ -9649,9 +9649,9 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "さま┊Windy•Hub",
+                            Name = "Kwi Hub",
                             Content = "Not Have Electric Claw",
-                            Image = "rbxassetid://17510500831",
+                            Image = "rbxassetid://17799933756",
                             Time = 5
                         })
                         
@@ -9660,9 +9660,9 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "さま┊Windy•Hub",
+                                    Name = "Kwi Hub",
                                     Content = "Not Have Enough Material",
-                                    Image = "rbxassetid://17510500831",
+                                    Image = "rbxassetid://17799933756",
                                     Time = 5
                                 })
                                 
@@ -9672,9 +9672,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "さま┊Windy•Hub",
+                            Name = "Kwi Hub",
                             Content = "You Not Have Dragon Talon! ",
-                            Image = "rbxassetid://17510500831",
+                            Image = "rbxassetid://17799933756",
                             Time = 5
                         })
                         
@@ -12071,33 +12071,33 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "さま┊Windy•Hub",
+                    Name = "Kwi Hub",
                     Content = "Turn Off Hop Find Moon Please",
-                    Image = "rbxassetid://17510500831",
+                    Image = "rbxassetid://17799933756",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "さま┊Windy•Hub",
+                    Name = "Kwi Hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://17510500831",
+                    Image = "rbxassetid://17799933756",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "さま┊Windy•Hub",
+                    Name = "Kwi Hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://17510500831",
+                    Image = "rbxassetid://17799933756",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "さま┊Windy•Hub",
+                    Name = "Kwi Hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://17510500831",
+                    Image = "rbxassetid://17799933756",
                     Time = 5
                 })
             else
@@ -12108,9 +12108,9 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "さま┊Windy•Hub",
+        Name = "Kwi Hub",
         Content = "Loading script Successfully!",
-        Image = "rbxassetid://17510500831",
+        Image = "rbxassetid://17799933756",
         Time = 5
     })
 
@@ -12141,8 +12141,8 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "さま┊Windy•Hub",
+    Name = "Kwi Hub",
     Content = "Loading Config Success",
-    Image = "rbxassetid://17510500831",
+    Image = "rbxassetid://17799933756",
     Time = 5
 })
